@@ -61,7 +61,12 @@ function App() {
   return (
     <div className="App">
       <Layout className="layout">
-        <header className="header">
+        <header
+          className="header"
+          style={{
+            justifyContent: isConnected ? "space-between" : "space-around",
+          }}
+        >
           <div className="headerLeft">
             <img src={logo} alt="logo" className="logo" />
             {isConnected && (

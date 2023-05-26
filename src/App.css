@@ -27,6 +27,8 @@
   .header {
     padding-left: 10px;
     padding-right: 10px;
+    /* justify-content: space-around; */
+    min-width: 50%;
   }
 
   .headerLeft {
